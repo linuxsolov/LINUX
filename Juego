@@ -1,4 +1,8 @@
-import random
+#!/bin/bash
+clear
+echo -e "\e[4;31m LinuxSolov production !!! \e[0m"
+figlet GAME
+import random 
 n = random.randint(1, 99)
 guess = int(raw_input("Enter an integer from 1 to 99: "))
 while n != "guess":
