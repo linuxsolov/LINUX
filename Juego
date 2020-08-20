@@ -1,6 +1,4 @@
-#!/bin/bash
-clear
-echo -e "\e[4;31m LinuxSolov production !!! \e[0m"
+echo   LinuxSolov production !!!
 figlet GAME
 import random 
 n = random.randint(1, 99)
